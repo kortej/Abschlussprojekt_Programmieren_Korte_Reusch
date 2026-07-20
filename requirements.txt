@@ -5,3 +5,12 @@ matplotlib>=3.7
 folium>=0.14
 requests>=2.28
 pytest>=7.0
+pytest-cov>=4.0  # fuer 'pytest --cov=ebike'
+
+# Optional: offizielles Open-Meteo-SDK. Ist es installiert, laeuft die
+# Wetterabfrage darueber (FlatBuffers, HTTP-Cache, Wiederholungsversuche).
+# Fehlt es, wird automatisch der direkte requests-Weg verwendet - das
+# Projekt ist also auch ohne diese drei Pakete vollstaendig lauffaehig.
+openmeteo-requests>=1.2
+requests-cache>=1.1
+retry-requests>=2.0
