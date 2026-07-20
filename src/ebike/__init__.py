@@ -4,7 +4,7 @@ Das Paket berechnet aus aufgezeichneten GPS-Daten die Fahrwiderstaende eines
 E-Bikes und simuliert damit den Ladezustand zweier Akkutypen.
 """
 
-__version__ = "1.1.0"
+__version__ = "1.0.0"
 
 from .bike import EBike
 from .battery import BatteryPack, LiPoAkku, NmcAkku, erzeuge_akku
