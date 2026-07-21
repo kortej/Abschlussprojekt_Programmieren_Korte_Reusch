@@ -1,7 +1,7 @@
 """Umgebungsmodell: Luftdruck, Luftdichte und Wind.
 
 Erweiterung "Bestimmung der Luftdichte aus Temperatur und Hoehe ueber dem
-Meeresspiegel".
+Meeresspiegel"
 
 Die Luftdichte geht direkt in die Luftwiderstandskraft ein
 (F_D = 0.5 * rho * cw*A * v^2). Statt eines konstanten Wertes von 1.225 kg/m^3
